@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to top, #0f2027, #203a43, #2c5364); /* thunder blue gradient */
+  color: #fff;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://images.app.goo.gl/Z61PNBayNf5eRyMo6'); /* Thunder-themed static image */
+  background-size: cover;
+  background-position: center;
+  transition: background 0.3s;
+}
+
+.form-card {
+  background-color: rgba(10, 10, 30, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  width: 90%;
+  max-width: 500px;
+}
+
+h2 {
+  text-align: center;
+  color: #00ffff;
+  margin-bottom: 20px;
+}
+
+form label,
+.gender {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #00aaff;
+  border-radius: 8px;
+  background-color: #001f33;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  background-color: #003366;
+  outline: none;
+}
+
+.gender label {
+  margin-right: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #00aaff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background-color: #0077aa;
+  box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+}
