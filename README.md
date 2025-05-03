@@ -31,7 +31,7 @@ This project was created as part of a frontend challenge, with a focus on access
 
 ## 📷 Screenshot
 
-![Thunder Form Screenshot](https://i.ibb.co/G0FJbCp/thunder-bg.jpg)
+![Thunder Form Screenshot](https://github.com/user-attachments/assets/47640450-9350-4350-bb7f-7b332bffb072)
 
 ---
 
